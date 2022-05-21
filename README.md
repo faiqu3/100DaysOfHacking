@@ -1,7 +1,8 @@
 # 100DaysOfHacking
 
 This repository contains all the information shared during my 100 days of hacking challenge.                                                               
-This initiative aims to help you guys in your learning process and allow me to share my knowledge.
+This initiative aims to help you guys in your learning process and allow me to share my knowledge.     
+Special thanks to [@0xs0m](https://twitter.com/0xs0m?s=21&t=av1xl1GXvKGxH36y0ENvvw) for his contribution
 
 ___
 Day | Topic
