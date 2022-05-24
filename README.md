@@ -9,5 +9,7 @@ Day | Topic
 --- | ---
 **1** |  [SQL injection Part 1](/days/day1.md)
 **2** |  [SQL injection Part 2](/days/day2.md)
+**3** |  [SQL injection Part 3](/days/day3.md)
+**4** |  [SQL injection Part 4](/days/day4.md)
 
 
