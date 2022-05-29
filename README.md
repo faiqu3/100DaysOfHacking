@@ -4,6 +4,8 @@
 This initiative aims to help you guys in your learning process and allow me to share my knowledge.     
 Special thanks to [imfaiqu3](https://twitter.com/imfaiqu3) for his contribution. Also check his [#100daysofhacking](https://github.com/faiqu3/100DaysOfHacking)
 
+(will update soon)
+
 ___
 Day | Topic
 --- | ---
