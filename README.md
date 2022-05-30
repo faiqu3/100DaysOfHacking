@@ -1,4 +1,4 @@
-# 100DaysOfHacking
+# 100 Days Of Hacking
 
 ### This repository contains all the information shared during my 100 days of hacking challenge.                                                               
 This initiative aims to help you guys and also me 😋 in learning process and allow me to share my knowledge.     
