@@ -1,8 +1,10 @@
-# 100DaysOfHacking
+# 100 Days Of Hacking
 
 ### This repository contains all the information shared during my 100 days of hacking challenge.                                                               
-This initiative aims to help you guys in your learning process and allow me to share my knowledge.     
-Special thanks to [@0xs0m](https://twitter.com/0xs0m?s=21&t=av1xl1GXvKGxH36y0ENvvw) for his contribution
+This initiative aims to help you guys and also me 😋 in learning process and allow me to share my knowledge.     
+Special thanks to [imfaiqu3](https://twitter.com/imfaiqu3) for his contribution. Also check his [#100daysofhacking](https://github.com/faiqu3/100DaysOfHacking)
+
+(will update soon)
 
 ___
 Day | Topic
