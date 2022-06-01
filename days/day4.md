@@ -1,4 +1,4 @@
-# SQL Injection Part 3: Portswigger Labs
+# SQL Injection Part 4: Portswigger Labs
 ### [Lab 10: SQL injection attack, listing the database contents on Oracle](https://0a4000fb036fe53ec00903d500a80086.web-security-academy.net/filter?category=Lifestyle)
 **To solve: Login as the administrator**
 
