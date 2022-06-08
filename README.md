@@ -14,6 +14,6 @@ Day | Topic
 **6** |  [SQL injection Part 6](/days/day6.md)
 **7** |  [SQL injection Part 7](/days/day7.md)
 **8** |  [SQL injection Part 8](/days/day8.md)
-**9-30** |  [HackTheBox Labs ](/days/day8.md)
+**9-30** |  [HTB Retired Labs ](https://faique.gitbook.io/learn_hacking/htb-retired-machines)
 
 
