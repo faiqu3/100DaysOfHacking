@@ -3,7 +3,7 @@
 ## Portswigger Labs
 ### [Lab 1: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
  
- **To solve: Have to retrieve all the details of all the product**
+ **To solve: Retrieve details of all the product**
 
 -Having SQLi in the category filter
 
